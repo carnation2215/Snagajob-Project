@@ -1,0 +1,186 @@
+.navbg{
+    background: linear-gradient(90deg,rgb(90,25,162),rgb(53, 8, 126));
+    height: max-content;
+    padding-bottom: 0px;
+    border-radius: 0px !important;
+    border:0px;
+    padding-top: 5px;
+    padding-bottom: 1px;
+}
+.navbg1{
+    background: white;
+    height: max-content;
+    margin-top: 0%;
+    padding-top: 0%;
+    padding-bottom: 0px;
+    border-radius: 0px !important;
+    border-bottom:1px black !important;
+}
+
+.navbg2{
+    background: white;
+    height: max-content;
+    min-width: 100% !important;
+    margin-top: 0%;
+    padding-top: 0%;
+    padding-bottom: 0px;
+    border-radius: 0px !important;
+    border-bottom:1px black !important;
+    font-size: larger;
+}
+
+.navbar{
+    margin-bottom: 0%;
+    border-bottom:2px black solid;
+}
+.searchbtn{
+    background-color: palevioletred !important;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: -0.5%;
+    
+    border-radius: 0%;
+    border-top-right-radius: 16px !important;
+    border-bottom-right-radius: 16px !important;
+}
+.navbtn{
+    background-color: white !important;
+    color:black;
+    border-color: black;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 16px!important;
+}
+
+.apply{
+    background-color: blue !important;
+    color        :white;
+    border-color : none;
+    text-align   : center;
+    padding-left : 20px;
+    padding-right: 20px;
+    border-radius: 16px!important;
+    font-size: medium;
+}
+
+.noborderradius{
+    border-radius: 0%!important;
+    margin-left: -0.3%!important;
+    margin-right: -0.2%!important;
+}
+.list{
+    background:white;
+    height:85vh;
+    overflow-y: auto;
+    padding-left: 0%;
+    padding-right: 0%;
+    
+}
+.list::-webkit-scrollbar {
+    width: 15px;               /* width of the entire scrollbar */
+}
+.list::-webkit-scrollbar-track {
+    background: #f1f1f1;        /* color of the tracking area */
+}
+.list::-webkit-scrollbar-thumb {
+    background-color: #ccc;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #f1f1f1;  /* creates padding around scroll thumb */
+}
+
+
+.desc{
+    background:white;
+    height:85vh;
+    overflow-y: auto;
+    line-height: 18pt;
+    right:0px;
+}
+
+.desc::-webkit-scrollbar {
+    width: 15px;               /* width of the entire scrollbar */
+}
+.desc::-webkit-scrollbar-track {
+    background: #f1f1f1;        /* color of the tracking area */
+}
+.desc::-webkit-scrollbar-thumb {
+    background-color: #ccc;    /* color of the scroll thumb */
+    border-radius: px;       /* roundness of the scroll thumb */
+    border: 0px;  /* creates padding around scroll thumb */
+}
+
+.jobitem{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: max-content;
+    min-height: fit-content;
+    border-bottom: black solid .5px;
+    overflow-y: hidden;
+}
+.jobitem:hover{
+    cursor: pointer;
+    background:lightgrey;
+    border-left: 10px rgb(129, 4, 167) solid;
+
+}
+
+.itemtitle{
+    font-weight:bold;
+    color:blue;
+    font-size: medium;
+    text-align: left;
+    padding-left: 0%;
+    padding-bottom: 2px;
+     
+}
+
+.itemcompany{    
+    color:blue;
+    font-size: medium;
+    text-align: left; 
+}
+
+.item{
+    font-weight:bold;
+    color:blue;
+    font-size: medium;
+    text-align: left; 
+}
+
+.itemtitle{
+    font-weight:bold;
+    color:blue;
+    font-size: medium;
+    text-align: left; 
+}
+
+.itemloc{
+
+}
+.itemfilter{
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.refer{
+    color:red!important;
+}
+.suggest{
+display: inline;
+}
+
+.suggest > li{
+    background-color:lightgray !important;
+    color:black;
+    border-color:none;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 16px!important;
+    display: inline-block;
+}
+.suggest > li:hover{
+    cursor:pointer;   
+}
